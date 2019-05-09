@@ -1,0 +1,4 @@
+#Thu May 09 00:11:23 WET 2019
+base.0=C\:\\Users\\youssef\\React-Projects\\Quick_Shop-master\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

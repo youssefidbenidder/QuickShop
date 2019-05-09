@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="310cabe3-56b7-4f0c-b65b-7ee9087cc0bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/store/stateToStore/MapStateToStoreProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modals/NomModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modals/NomModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modals/SexeModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modals/SexeModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navigations/AccueilNavigator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navigations/CompteNavigator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navigations/CompteSwitchNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigations/CompteSwitchNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navigations/ConnectionNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigations/ConnectionNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navigations/Navigations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigations/MainNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navigations/PanierNavigator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/CartScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/homeScreens/CartScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/CategoryScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/homeScreens/CategoryScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/HomeComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProdHomeComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/homeScreens/HomeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/ItemComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WishComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/OrdersScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/OrdersScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/SettingsScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/SettingsScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/TestScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/WishScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/WishScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/Album.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/Album.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/CartProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/CartProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/Categorie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/Categorie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/CategorieItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/CategorieItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/prodTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/WishProducts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FormInscription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormComponents/FormInscription.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FormLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormComponents/FormLogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormComponents/Logo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RedButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormComponents/RedButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WhiteButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormComponents/WhiteButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/Navigate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigations/HomeNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/profileicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/profileicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Accueil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Compte.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/compteScreens/Compte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/compteScreens/Connection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ConnectionMiddle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/compteScreens/ConnectionMiddle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/EditProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/compteScreens/EditProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Inscription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/compteScreens/Inscription.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/compteScreens/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Panier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/reducerCounterPanier.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/reducerCounterPanier.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/reducerFavorite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/reducerFavorite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/reducerPanier.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/reducerPanier.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/reducerProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/reducerProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/DateModal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/Firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/Firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/InscriptionCheckEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/compteScreens/InscriptionCheckEmail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/InscriptionTest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/testMapStateToStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/testUserFetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/UserFetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/compteScreens/Compte.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1150">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/compteScreens/EditProfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-327">
+              <caret line="76" column="55" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/compteScreens/ConnectionMiddle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/navigations/CompteSwitchNavigator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/screens/homeScreens/HomeScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2208">
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ProdHomeComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/navigations/ConnectionNavigator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-336">
+              <folding>
+                <element signature="e#0#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/navigations/MainNavigator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-980">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#101#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\youssef\React-Projects\Quick_Shop-master\src\Screens</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/Body/product.js" />
+        <option value="$PROJECT_DIR$/src/components/Header/header.js" />
+        <option value="$PROJECT_DIR$/src/components/navigation/Navigate.js" />
+        <option value="$PROJECT_DIR$/src/Modals/SexeModal.js" />
+        <option value="$PROJECT_DIR$/src/Navigations/Navigations.js" />
+        <option value="$PROJECT_DIR$/src/Navigations/CompteNavigator.js" />
+        <option value="$PROJECT_DIR$/src/Navigations/CompteSwitchNavigator.js" />
+        <option value="$PROJECT_DIR$/src/Screens/WishScreen.js" />
+        <option value="$PROJECT_DIR$/src/Screens/OrdersScreen.js" />
+        <option value="$PROJECT_DIR$/src/Navigations/HomeNavigator.js" />
+        <option value="$PROJECT_DIR$/src/tests/testMapStateToStore.js" />
+        <option value="$PROJECT_DIR$/src/Screens/CompteScreens/InscriptionCheckEmail.js" />
+        <option value="$PROJECT_DIR$/src/Screens/CompteScreens/ResetPasword.js" />
+        <option value="$PROJECT_DIR$/src/store/reducers/reducerCounterPanier.js" />
+        <option value="$PROJECT_DIR$/src/store/reducers/reducerPanier.js" />
+        <option value="$PROJECT_DIR$/src/Screens/AddressForm.js" />
+        <option value="$PROJECT_DIR$/src/screens/compteScreens/InscriptionCheckEmail.js" />
+        <option value="$PROJECT_DIR$/src/store/actions/AdresseFetch.js" />
+        <option value="$PROJECT_DIR$/src/components/Body/Album.js" />
+        <option value="$PROJECT_DIR$/src/components/Body/CartProduct.js" />
+        <option value="$PROJECT_DIR$/src/components/Body/CategorieItems.js" />
+        <option value="$PROJECT_DIR$/src/components/Body/WishProducts.js" />
+        <option value="$PROJECT_DIR$/src/components/FormComponents/FormInscription.js" />
+        <option value="$PROJECT_DIR$/src/components/Modals/NomModal.js" />
+        <option value="$PROJECT_DIR$/src/screens/adresseScreens/AddressForm.js" />
+        <option value="$PROJECT_DIR$/src/screens/adresseScreens/AdresseLivraison.js" />
+        <option value="$PROJECT_DIR$/src/screens/compteScreens/Connection.js" />
+        <option value="$PROJECT_DIR$/src/screens/compteScreens/ConnectionMiddle.js" />
+        <option value="$PROJECT_DIR$/src/components/Body/Categorie.js" />
+        <option value="$PROJECT_DIR$/src/components/FormComponents/FormLogin.js" />
+        <option value="$PROJECT_DIR$/src/components/Modals/SexeModal.js" />
+        <option value="$PROJECT_DIR$/src/navigations/HomeNavigator.js" />
+        <option value="$PROJECT_DIR$/src/screens/compteScreens/ResetPasword.js" />
+        <option value="$PROJECT_DIR$/src/screens/homeScreens/CartScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/homeScreens/CategoryScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/homeScreens/HomeScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/OrdersScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/SettingsScreen.js" />
+        <option value="$PROJECT_DIR$/src/screens/WishScreen.js" />
+        <option value="$PROJECT_DIR$/src/store/actions/LogOut.js" />
+        <option value="$PROJECT_DIR$/src/screens/compteScreens/Compte.js" />
+        <option value="$PROJECT_DIR$/src/screens/SearchScreen.js" />
+        <option value="$PROJECT_DIR$/src/navigations/MainNavigator.js" />
+        <option value="$PROJECT_DIR$/src/screens/compteScreens/EditProfile.js" />
+        <option value="$PROJECT_DIR$/src/components/ProdHomeComponent.js" />
+        <option value="$PROJECT_DIR$/src/navigations/CompteSwitchNavigator.js" />
+        <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Body" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="FormComponents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="navigations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="compteScreens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="homeScreens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quick_Shop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quick_Shop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\youssef\React-Projects\Quick_Shop-master\src\screens\compteScreens" />
+      <recent name="C:\Users\youssef\React-Projects\Quick_Shop-master\src\store\actions" />
+      <recent name="C:\Users\youssef\React-Projects\Quick_Shop-master\src\tests" />
+      <recent name="C:\Users\youssef\React-Projects\Quick_Shop-master\src\Screens" />
+      <recent name="C:\Users\youssef\React-Projects\Quick_Shop-master\src\Screens\CompteScreens" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\youssef\React-Projects\Quick_Shop-master\images" />
+      <recent name="C:\Users\youssef\React-Projects\Quick_Shop-master\src\store\stateToStore" />
+      <recent name="C:\Users\youssef\React-Projects\Quick_Shop-master\src\store\actions" />
+      <recent name="C:\Users\youssef\React-Projects\Quick_Shop-master\src\screens\compteScreens" />
+      <recent name="C:\Users\youssef\React-Projects\Quick_Shop-master\src\Screens\adresseScreens" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="310cabe3-56b7-4f0c-b65b-7ee9087cc0bf" name="Default Changelist" comment="" />
+      <created>1557319472094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557319472094</updated>
+      <workItem from="1557319474342" duration="2027000" />
+      <workItem from="1557323032425" duration="2517000" />
+      <workItem from="1557339955910" duration="6827000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11371000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991454" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32991454" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/navigations/CompteNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Body/Album.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Body/CartProduct.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="190" column="35" lean-forward="true" selection-start-line="190" selection-start-column="35" selection-end-line="190" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Body/Categorie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Body/CategorieItems.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Body/WishProducts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FormComponents/FormInscription.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="91" selection-start-line="6" selection-start-column="91" selection-end-line="6" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FormComponents/FormLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FormComponents/Logo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FormComponents/RedButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FormComponents/WhiteButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Modals/NomModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Modals/SexeModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1288">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/WishComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/firebase/Firebase.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/adresseScreens/AddressForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/compteScreens/InscriptionCheckEmail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/compteScreens/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/compteScreens/ResetPasword.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/homeScreens/CartScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/homeScreens/CategoryScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782">
+          <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1416#1455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/OrdersScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/WishScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/AdresseFetch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/LogOut.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions/UserFetch.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/combineReducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/reducerCounterPanier.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/reducerFavorite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/reducerPanier.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/reducerProfile.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/Store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/styles.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utiles/validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/compteScreens/Inscription.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/adresseScreens/AdresseLivraison.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="14" column="105" selection-start-line="14" selection-start-column="105" selection-end-line="14" selection-end-column="105" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navigations/HomeNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/SettingsScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="24" lean-forward="true" selection-end-line="37" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/SearchScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navigations/MainNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-980">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/compteScreens/Compte.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1150">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/compteScreens/Connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-773">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/compteScreens/ConnectionMiddle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navigations/ConnectionNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-navigation/typescript/react-navigation.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="642" column="4" selection-start-line="642" selection-start-column="4" selection-end-line="642" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/compteScreens/EditProfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-327">
+          <caret line="76" column="55" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/homeScreens/HomeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2208">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProdHomeComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navigations/CompteSwitchNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
